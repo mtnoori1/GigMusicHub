@@ -35,10 +35,60 @@ namespace GigMusicHub
                         validateInterval:TimeSpan.FromMinutes(30),
                         regenerateIdentity:(manager,user)=>user.GenerateUserIdentityAsync(manager))
                         
-                }
+                 }
             });
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
